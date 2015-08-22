@@ -1,0 +1,22 @@
+{
+  "name": "depl2",
+  "version": "1.0.0",
+  "description": "deploy test repo 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "depl2"
+  },
+  "keywords": [
+    "heroku",
+    "deployment"
+  ],
+  "author": "Vy Cu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

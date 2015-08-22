@@ -47,10 +47,12 @@ app.use(function(req, res, next) {
 //========================================================//
 //   ROUTES                                               //
 //========================================================//
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+// app.get('/', function(req, res) {
+//     res.sendFile(path.join(__dirname + '/index.html'));
+// });
+app.get('/', function(req, res){
+  res.send('testing THE DEPL');
 });
-
 //========================================================//
 //   Use this to add many mp3s at once to the library     //
 //========================================================//
